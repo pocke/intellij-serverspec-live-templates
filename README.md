@@ -34,4 +34,4 @@ These codes are licensed under CC0.
 Links
 -------
 
-- [pocke/serverspec.vim](https://github.com/pocke/serverspec.vim)
+- [pocke/serverspec.vim](https://github.com/pocke/serverspec.vim) For Vim users.
