@@ -1,0 +1,1617 @@
+<templateSet group="Serverspec">
+<template name="bridge" value="describe bridge('$TARGET_NAME$') do&#10;  $END$&#10;end&#10;" description="bridge" toReformat="true" toShortenFQNames="true">
+  <variable name="TARGET_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+
+<template name="bond" value="describe bond('$TARGET_NAME$') do&#10;  $END$&#10;end&#10;" description="bond" toReformat="true" toShortenFQNames="true">
+  <variable name="TARGET_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+
+<template name="cgroup" value="describe cgroup('$TARGET_NAME$') do&#10;  $END$&#10;end&#10;" description="cgroup" toReformat="true" toShortenFQNames="true">
+  <variable name="TARGET_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+
+<template name="command" value="describe command('$TARGET_NAME$') do&#10;  $END$&#10;end&#10;" description="command" toReformat="true" toShortenFQNames="true">
+  <variable name="TARGET_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+
+<template name="cron" value="describe cron('$TARGET_NAME$') do&#10;  $END$&#10;end&#10;" description="cron" toReformat="true" toShortenFQNames="true">
+  <variable name="TARGET_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+
+<template name="default_gateway" value="describe default_gateway('$TARGET_NAME$') do&#10;  $END$&#10;end&#10;" description="default_gateway" toReformat="true" toShortenFQNames="true">
+  <variable name="TARGET_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+
+<template name="file" value="describe file('$TARGET_NAME$') do&#10;  $END$&#10;end&#10;" description="file" toReformat="true" toShortenFQNames="true">
+  <variable name="TARGET_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+
+<template name="fstab" value="describe fstab('$TARGET_NAME$') do&#10;  $END$&#10;end&#10;" description="fstab" toReformat="true" toShortenFQNames="true">
+  <variable name="TARGET_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+
+<template name="group" value="describe group('$TARGET_NAME$') do&#10;  $END$&#10;end&#10;" description="group" toReformat="true" toShortenFQNames="true">
+  <variable name="TARGET_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+
+<template name="host" value="describe host('$TARGET_NAME$') do&#10;  $END$&#10;end&#10;" description="host" toReformat="true" toShortenFQNames="true">
+  <variable name="TARGET_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+
+<template name="iis_website" value="describe iis_website('$TARGET_NAME$') do&#10;  $END$&#10;end&#10;" description="iis_website" toReformat="true" toShortenFQNames="true">
+  <variable name="TARGET_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+
+<template name="iis_app_pool" value="describe iis_app_pool('$TARGET_NAME$') do&#10;  $END$&#10;end&#10;" description="iis_app_pool" toReformat="true" toShortenFQNames="true">
+  <variable name="TARGET_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+
+<template name="interface" value="describe interface('$TARGET_NAME$') do&#10;  $END$&#10;end&#10;" description="interface" toReformat="true" toShortenFQNames="true">
+  <variable name="TARGET_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+
+<template name="ipfilter" value="describe ipfilter('$TARGET_NAME$') do&#10;  $END$&#10;end&#10;" description="ipfilter" toReformat="true" toShortenFQNames="true">
+  <variable name="TARGET_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+
+<template name="ipnat" value="describe ipnat('$TARGET_NAME$') do&#10;  $END$&#10;end&#10;" description="ipnat" toReformat="true" toShortenFQNames="true">
+  <variable name="TARGET_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+
+<template name="iptables" value="describe iptables('$TARGET_NAME$') do&#10;  $END$&#10;end&#10;" description="iptables" toReformat="true" toShortenFQNames="true">
+  <variable name="TARGET_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+
+<template name="ip6tables" value="describe ip6tables('$TARGET_NAME$') do&#10;  $END$&#10;end&#10;" description="ip6tables" toReformat="true" toShortenFQNames="true">
+  <variable name="TARGET_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+
+<template name="json_file" value="describe json_file('$TARGET_NAME$') do&#10;  $END$&#10;end&#10;" description="json_file" toReformat="true" toShortenFQNames="true">
+  <variable name="TARGET_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+
+<template name="kernel_module" value="describe kernel_module('$TARGET_NAME$') do&#10;  $END$&#10;end&#10;" description="kernel_module" toReformat="true" toShortenFQNames="true">
+  <variable name="TARGET_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+
+<template name="linux_kernel_parameter" value="describe linux_kernel_parameter('$TARGET_NAME$') do&#10;  $END$&#10;end&#10;" description="linux_kernel_parameter" toReformat="true" toShortenFQNames="true">
+  <variable name="TARGET_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+
+<template name="lxc" value="describe lxc('$TARGET_NAME$') do&#10;  $END$&#10;end&#10;" description="lxc" toReformat="true" toShortenFQNames="true">
+  <variable name="TARGET_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+
+<template name="mail_alias" value="describe mail_alias('$TARGET_NAME$') do&#10;  $END$&#10;end&#10;" description="mail_alias" toReformat="true" toShortenFQNames="true">
+  <variable name="TARGET_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+
+<template name="mysql_config" value="describe mysql_config('$TARGET_NAME$') do&#10;  $END$&#10;end&#10;" description="mysql_config" toReformat="true" toShortenFQNames="true">
+  <variable name="TARGET_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+
+<template name="package" value="describe package('$TARGET_NAME$') do&#10;  $END$&#10;end&#10;" description="package" toReformat="true" toShortenFQNames="true">
+  <variable name="TARGET_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+
+<template name="php_config" value="describe php_config('$TARGET_NAME$') do&#10;  $END$&#10;end&#10;" description="php_config" toReformat="true" toShortenFQNames="true">
+  <variable name="TARGET_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+
+<template name="port" value="describe port('$TARGET_NAME$') do&#10;  $END$&#10;end&#10;" description="port" toReformat="true" toShortenFQNames="true">
+  <variable name="TARGET_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+
+<template name="ppa" value="describe ppa('$TARGET_NAME$') do&#10;  $END$&#10;end&#10;" description="ppa" toReformat="true" toShortenFQNames="true">
+  <variable name="TARGET_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+
+<template name="process" value="describe process('$TARGET_NAME$') do&#10;  $END$&#10;end&#10;" description="process" toReformat="true" toShortenFQNames="true">
+  <variable name="TARGET_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+
+<template name="routing_table" value="describe routing_table('$TARGET_NAME$') do&#10;  $END$&#10;end&#10;" description="routing_table" toReformat="true" toShortenFQNames="true">
+  <variable name="TARGET_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+
+<template name="selinux" value="describe selinux('$TARGET_NAME$') do&#10;  $END$&#10;end&#10;" description="selinux" toReformat="true" toShortenFQNames="true">
+  <variable name="TARGET_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+
+<template name="selinux_module" value="describe selinux_module('$TARGET_NAME$') do&#10;  $END$&#10;end&#10;" description="selinux_module" toReformat="true" toShortenFQNames="true">
+  <variable name="TARGET_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+
+<template name="service" value="describe service('$TARGET_NAME$') do&#10;  $END$&#10;end&#10;" description="service" toReformat="true" toShortenFQNames="true">
+  <variable name="TARGET_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+
+<template name="user" value="describe user('$TARGET_NAME$') do&#10;  $END$&#10;end&#10;" description="user" toReformat="true" toShortenFQNames="true">
+  <variable name="TARGET_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+
+<template name="yumrepo" value="describe yumrepo('$TARGET_NAME$') do&#10;  $END$&#10;end&#10;" description="yumrepo" toReformat="true" toShortenFQNames="true">
+  <variable name="TARGET_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+
+<template name="windows_feature" value="describe windows_feature('$TARGET_NAME$') do&#10;  $END$&#10;end&#10;" description="windows_feature" toReformat="true" toShortenFQNames="true">
+  <variable name="TARGET_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+
+<template name="windows_hot_fix" value="describe windows_hot_fix('$TARGET_NAME$') do&#10;  $END$&#10;end&#10;" description="windows_hot_fix" toReformat="true" toShortenFQNames="true">
+  <variable name="TARGET_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+
+<template name="windows_registry_key" value="describe windows_registry_key('$TARGET_NAME$') do&#10;  $END$&#10;end&#10;" description="windows_registry_key" toReformat="true" toShortenFQNames="true">
+  <variable name="TARGET_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+
+<template name="windows_scheduled_task" value="describe windows_scheduled_task('$TARGET_NAME$') do&#10;  $END$&#10;end&#10;" description="windows_scheduled_task" toReformat="true" toShortenFQNames="true">
+  <variable name="TARGET_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+
+<template name="zfs" value="describe zfs('$TARGET_NAME$') do&#10;  $END$&#10;end&#10;" description="zfs" toReformat="true" toShortenFQNames="true">
+  <variable name="TARGET_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+
+<template name="docker_base" value="describe docker_base('$TARGET_NAME$') do&#10;  $END$&#10;end&#10;" description="docker_base" toReformat="true" toShortenFQNames="true">
+  <variable name="TARGET_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+
+<template name="docker_image" value="describe docker_image('$TARGET_NAME$') do&#10;  $END$&#10;end&#10;" description="docker_image" toReformat="true" toShortenFQNames="true">
+  <variable name="TARGET_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+
+<template name="docker_container" value="describe docker_container('$TARGET_NAME$') do&#10;  $END$&#10;end&#10;" description="docker_container" toReformat="true" toShortenFQNames="true">
+  <variable name="TARGET_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+
+<template name="x509_certificate" value="describe x509_certificate('$TARGET_NAME$') do&#10;  $END$&#10;end&#10;" description="x509_certificate" toReformat="true" toShortenFQNames="true">
+  <variable name="TARGET_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+
+<template name="x509_private_key" value="describe x509_private_key('$TARGET_NAME$') do&#10;  $END$&#10;end&#10;" description="x509_private_key" toReformat="true" toShortenFQNames="true">
+  <variable name="TARGET_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+
+<template name="linux_audit_system" value="describe linux_audit_system('$TARGET_NAME$') do&#10;  $END$&#10;end&#10;" description="linux_audit_system" toReformat="true" toShortenFQNames="true">
+  <variable name="TARGET_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+
+<template name="hadoop_config" value="describe hadoop_config('$TARGET_NAME$') do&#10;  $END$&#10;end&#10;" description="hadoop_config" toReformat="true" toShortenFQNames="true">
+  <variable name="TARGET_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+
+<template name="php_extension" value="describe php_extension('$TARGET_NAME$') do&#10;  $END$&#10;end&#10;" description="php_extension" toReformat="true" toShortenFQNames="true">
+  <variable name="TARGET_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+
+<template name="bridge_be" value="it { should be($object$) }&#10;" description="be of bridge" toReformat="true" toShortenFQNames="true">
+  <variable name="object" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="bridge_exist" value="it { should exist }&#10;" description="exist of bridge" toReformat="true" toShortenFQNames="true">
+
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="bridge_be_has_interface" value="it { should be_has_interface($interface$) }&#10;" description="be_has_interface of bridge" toReformat="true" toShortenFQNames="true">
+  <variable name="interface" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="bond_be" value="it { should be($object$) }&#10;" description="be of bond" toReformat="true" toShortenFQNames="true">
+  <variable name="object" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="bond_exist" value="it { should exist }&#10;" description="exist of bond" toReformat="true" toShortenFQNames="true">
+
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="bond_be_has_interface" value="it { should be_has_interface($interface$) }&#10;" description="be_has_interface of bond" toReformat="true" toShortenFQNames="true">
+  <variable name="interface" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="cgroup_be" value="it { should be($object$) }&#10;" description="be of cgroup" toReformat="true" toShortenFQNames="true">
+  <variable name="object" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="cgroup_subsystem" value="its(:subsystem) { should be $END$ }&#10;" description=":subsystem of cgroup" toReformat="true" toShortenFQNames="true">
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="command_be" value="it { should be($object$) }&#10;" description="be of command" toReformat="true" toShortenFQNames="true">
+  <variable name="object" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="command_stderr" value="its(:stderr) { should be $END$ }&#10;" description=":stderr of command" toReformat="true" toShortenFQNames="true">
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="command_stdout" value="its(:stdout) { should be $END$ }&#10;" description=":stdout of command" toReformat="true" toShortenFQNames="true">
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="command_exit_status" value="its(:exit_status) { should be $END$ }&#10;" description=":exit_status of command" toReformat="true" toShortenFQNames="true">
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="cron_be" value="it { should be($object$) }&#10;" description="be of cron" toReformat="true" toShortenFQNames="true">
+  <variable name="object" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="cron_be_has_entry" value="it { should be_has_entry($user$, $entry$) }&#10;" description="be_has_entry of cron" toReformat="true" toShortenFQNames="true">
+  <variable name="user" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="entry" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="cron_to_s" value="its(:to_s) { should be $END$ }&#10;" description=":to_s of cron" toReformat="true" toShortenFQNames="true">
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="cron_table" value="its(:table) { should be $END$ }&#10;" description=":table of cron" toReformat="true" toShortenFQNames="true">
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="default_gateway_be" value="it { should be($object$) }&#10;" description="be of default_gateway" toReformat="true" toShortenFQNames="true">
+  <variable name="object" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="default_gateway_to_s" value="its(:to_s) { should be $END$ }&#10;" description=":to_s of default_gateway" toReformat="true" toShortenFQNames="true">
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="default_gateway_interface" value="its(:interface) { should be $END$ }&#10;" description=":interface of default_gateway" toReformat="true" toShortenFQNames="true">
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="default_gateway_ipaddress" value="its(:ipaddress) { should be $END$ }&#10;" description=":ipaddress of default_gateway" toReformat="true" toShortenFQNames="true">
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="file_be" value="it { should be($object$) }&#10;" description="be of file" toReformat="true" toShortenFQNames="true">
+  <variable name="object" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="file_exist" value="it { should exist }&#10;" description="exist of file" toReformat="true" toShortenFQNames="true">
+
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="file_be_directory" value="it { should be_directory }&#10;" description="be_directory of file" toReformat="true" toShortenFQNames="true">
+
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="file_be_readable" value="it { should be_readable.by($by$).by_user($by_user$) }&#10;" description="be_readable of file" toReformat="true" toShortenFQNames="true">
+  <variable name="by" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="by_user" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="file_be_writable" value="it { should be_writable.by($by$).by_user($by_user$) }&#10;" description="be_writable of file" toReformat="true" toShortenFQNames="true">
+  <variable name="by" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="by_user" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="file_be_executable" value="it { should be_executable.by($by$).by_user($by_user$) }&#10;" description="be_executable of file" toReformat="true" toShortenFQNames="true">
+  <variable name="by" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="by_user" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="file_be_file" value="it { should be_file }&#10;" description="be_file of file" toReformat="true" toShortenFQNames="true">
+
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="file_be_pipe" value="it { should be_pipe }&#10;" description="be_pipe of file" toReformat="true" toShortenFQNames="true">
+
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="file_be_symlink" value="it { should be_symlink }&#10;" description="be_symlink of file" toReformat="true" toShortenFQNames="true">
+
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="file_be_socket" value="it { should be_socket }&#10;" description="be_socket of file" toReformat="true" toShortenFQNames="true">
+
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="file_be_mounted" value="it { should be_mounted.with($with$).only_with($only_with$) }&#10;" description="be_mounted of file" toReformat="true" toShortenFQNames="true">
+  <variable name="with" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="only_with" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="file_be_block_device" value="it { should be_block_device }&#10;" description="be_block_device of file" toReformat="true" toShortenFQNames="true">
+
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="file_be_character_device" value="it { should be_character_device }&#10;" description="be_character_device of file" toReformat="true" toShortenFQNames="true">
+
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="file_be_mode" value="it { should be_mode($mode$) }&#10;" description="be_mode of file" toReformat="true" toShortenFQNames="true">
+  <variable name="mode" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="file_be_owned_by" value="it { should be_owned_by($owner$) }&#10;" description="be_owned_by of file" toReformat="true" toShortenFQNames="true">
+  <variable name="owner" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="file_be_grouped_into" value="it { should be_grouped_into($group$) }&#10;" description="be_grouped_into of file" toReformat="true" toShortenFQNames="true">
+  <variable name="group" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="file_be_linked_to" value="it { should be_linked_to($target$) }&#10;" description="be_linked_to of file" toReformat="true" toShortenFQNames="true">
+  <variable name="target" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="file_be_immutable" value="it { should be_immutable }&#10;" description="be_immutable of file" toReformat="true" toShortenFQNames="true">
+
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="file_be_version" value="it { should be_version($version$) }&#10;" description="be_version of file" toReformat="true" toShortenFQNames="true">
+  <variable name="version" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="file_size" value="its(:size) { should be $END$ }&#10;" description=":size of file" toReformat="true" toShortenFQNames="true">
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="file_mtime" value="its(:mtime) { should be $END$ }&#10;" description=":mtime of file" toReformat="true" toShortenFQNames="true">
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="file_mode" value="its(:mode) { should be $END$ }&#10;" description=":mode of file" toReformat="true" toShortenFQNames="true">
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="file_owner" value="its(:owner) { should be $END$ }&#10;" description=":owner of file" toReformat="true" toShortenFQNames="true">
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="file_group" value="its(:group) { should be $END$ }&#10;" description=":group of file" toReformat="true" toShortenFQNames="true">
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="file_content" value="its(:content) { should be $END$ }&#10;" description=":content of file" toReformat="true" toShortenFQNames="true">
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="file_md5sum" value="its(:md5sum) { should be $END$ }&#10;" description=":md5sum of file" toReformat="true" toShortenFQNames="true">
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="file_sha256sum" value="its(:sha256sum) { should be $END$ }&#10;" description=":sha256sum of file" toReformat="true" toShortenFQNames="true">
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="file_content_as_json" value="its(:content_as_json) { should be $END$ }&#10;" description=":content_as_json of file" toReformat="true" toShortenFQNames="true">
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="file_content_as_yaml" value="its(:content_as_yaml) { should be $END$ }&#10;" description=":content_as_yaml of file" toReformat="true" toShortenFQNames="true">
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="file_link_target" value="its(:link_target) { should be $END$ }&#10;" description=":link_target of file" toReformat="true" toShortenFQNames="true">
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="file_selinux_label" value="its(:selinux_label) { should be $END$ }&#10;" description=":selinux_label of file" toReformat="true" toShortenFQNames="true">
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="fstab_be" value="it { should be($object$) }&#10;" description="be of fstab" toReformat="true" toShortenFQNames="true">
+  <variable name="object" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="fstab_be_has_entry" value="it { should be_has_entry($entry$) }&#10;" description="be_has_entry of fstab" toReformat="true" toShortenFQNames="true">
+  <variable name="entry" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="fstab_to_s" value="its(:to_s) { should be $END$ }&#10;" description=":to_s of fstab" toReformat="true" toShortenFQNames="true">
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="group_be" value="it { should be($object$) }&#10;" description="be of group" toReformat="true" toShortenFQNames="true">
+  <variable name="object" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="group_exist" value="it { should exist }&#10;" description="exist of group" toReformat="true" toShortenFQNames="true">
+
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="group_be_has_gid" value="it { should be_has_gid($gid$) }&#10;" description="be_has_gid of group" toReformat="true" toShortenFQNames="true">
+  <variable name="gid" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="host_be" value="it { should be($object$) }&#10;" description="be of host" toReformat="true" toShortenFQNames="true">
+  <variable name="object" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="host_be_reachable" value="it { should be_reachable.with($with$) }&#10;" description="be_reachable of host" toReformat="true" toShortenFQNames="true">
+  <variable name="with" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="host_be_resolvable" value="it { should be_resolvable.by($by$) }&#10;" description="be_resolvable of host" toReformat="true" toShortenFQNames="true">
+  <variable name="by" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="host_ipaddress" value="its(:ipaddress) { should be $END$ }&#10;" description=":ipaddress of host" toReformat="true" toShortenFQNames="true">
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="host_ipv4_address" value="its(:ipv4_address) { should be $END$ }&#10;" description=":ipv4_address of host" toReformat="true" toShortenFQNames="true">
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="host_ipv6_address" value="its(:ipv6_address) { should be $END$ }&#10;" description=":ipv6_address of host" toReformat="true" toShortenFQNames="true">
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="iis_website_be" value="it { should be($object$) }&#10;" description="be of iis_website" toReformat="true" toShortenFQNames="true">
+  <variable name="object" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="iis_website_exist" value="it { should exist }&#10;" description="exist of iis_website" toReformat="true" toShortenFQNames="true">
+
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="iis_website_be_enabled" value="it { should be_enabled.description($description$).with_level($with_level$) }&#10;" description="be_enabled of iis_website" toReformat="true" toShortenFQNames="true">
+  <variable name="description" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="with_level" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="iis_website_be_running" value="it { should be_running.description($description$).under($under$) }&#10;" description="be_running of iis_website" toReformat="true" toShortenFQNames="true">
+  <variable name="description" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="under" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="iis_website_be_has_site_application" value="it { should be_has_site_application($app$, $pool$, $physical_path$) }&#10;" description="be_has_site_application of iis_website" toReformat="true" toShortenFQNames="true">
+  <variable name="app" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="pool" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="physical_path" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="iis_website_be_has_site_bindings" value="it { should be_has_site_bindings($port$, $protocol$, $ipaddress$, $host_header$) }&#10;" description="be_has_site_bindings of iis_website" toReformat="true" toShortenFQNames="true">
+  <variable name="port" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="protocol" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="ipaddress" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="host_header" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="iis_website_be_has_virtual_dir" value="it { should be_has_virtual_dir($vdir$, $path$) }&#10;" description="be_has_virtual_dir of iis_website" toReformat="true" toShortenFQNames="true">
+  <variable name="vdir" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="path" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="iis_website_be_in_app_pool" value="it { should be_in_app_pool($app_pool$) }&#10;" description="be_in_app_pool of iis_website" toReformat="true" toShortenFQNames="true">
+  <variable name="app_pool" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="iis_website_be_has_physical_path" value="it { should be_has_physical_path($path$) }&#10;" description="be_has_physical_path of iis_website" toReformat="true" toShortenFQNames="true">
+  <variable name="path" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="iis_website_to_s" value="its(:to_s) { should be $END$ }&#10;" description=":to_s of iis_website" toReformat="true" toShortenFQNames="true">
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="iis_app_pool_be" value="it { should be($object$) }&#10;" description="be of iis_app_pool" toReformat="true" toShortenFQNames="true">
+  <variable name="object" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="iis_app_pool_exist" value="it { should exist }&#10;" description="exist of iis_app_pool" toReformat="true" toShortenFQNames="true">
+
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="iis_app_pool_be_has_dotnet_version" value="it { should be_has_dotnet_version($dotnet$) }&#10;" description="be_has_dotnet_version of iis_app_pool" toReformat="true" toShortenFQNames="true">
+  <variable name="dotnet" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="iis_app_pool_be_has_32bit_enabled" value="it { should be_has_32bit_enabled }&#10;" description="be_has_32bit_enabled of iis_app_pool" toReformat="true" toShortenFQNames="true">
+
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="iis_app_pool_be_has_idle_timeout" value="it { should be_has_idle_timeout($minutes$) }&#10;" description="be_has_idle_timeout of iis_app_pool" toReformat="true" toShortenFQNames="true">
+  <variable name="minutes" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="iis_app_pool_be_has_identity_type" value="it { should be_has_identity_type($identity_type$) }&#10;" description="be_has_identity_type of iis_app_pool" toReformat="true" toShortenFQNames="true">
+  <variable name="identity_type" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="iis_app_pool_be_has_periodic_restart" value="it { should be_has_periodic_restart($minutes$) }&#10;" description="be_has_periodic_restart of iis_app_pool" toReformat="true" toShortenFQNames="true">
+  <variable name="minutes" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="iis_app_pool_be_has_user_profile_enabled" value="it { should be_has_user_profile_enabled }&#10;" description="be_has_user_profile_enabled of iis_app_pool" toReformat="true" toShortenFQNames="true">
+
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="iis_app_pool_be_has_username" value="it { should be_has_username($username$) }&#10;" description="be_has_username of iis_app_pool" toReformat="true" toShortenFQNames="true">
+  <variable name="username" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="iis_app_pool_be_has_managed_pipeline_mode" value="it { should be_has_managed_pipeline_mode($mode$) }&#10;" description="be_has_managed_pipeline_mode of iis_app_pool" toReformat="true" toShortenFQNames="true">
+  <variable name="mode" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="iis_app_pool_to_s" value="its(:to_s) { should be $END$ }&#10;" description=":to_s of iis_app_pool" toReformat="true" toShortenFQNames="true">
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="interface_be" value="it { should be($object$) }&#10;" description="be of interface" toReformat="true" toShortenFQNames="true">
+  <variable name="object" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="interface_exist" value="it { should exist }&#10;" description="exist of interface" toReformat="true" toShortenFQNames="true">
+
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="interface_be_has_ipv4_address" value="it { should be_has_ipv4_address($ip_address$) }&#10;" description="be_has_ipv4_address of interface" toReformat="true" toShortenFQNames="true">
+  <variable name="ip_address" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="interface_be_has_ipv6_address" value="it { should be_has_ipv6_address($ip_address$) }&#10;" description="be_has_ipv6_address of interface" toReformat="true" toShortenFQNames="true">
+  <variable name="ip_address" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="interface_be_up" value="it { should be_up }&#10;" description="be_up of interface" toReformat="true" toShortenFQNames="true">
+
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="interface_ipv4_address" value="its(:ipv4_address) { should be $END$ }&#10;" description=":ipv4_address of interface" toReformat="true" toShortenFQNames="true">
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="interface_ipv6_address" value="its(:ipv6_address) { should be $END$ }&#10;" description=":ipv6_address of interface" toReformat="true" toShortenFQNames="true">
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="interface_speed" value="its(:speed) { should be $END$ }&#10;" description=":speed of interface" toReformat="true" toShortenFQNames="true">
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="interface_mtu" value="its(:mtu) { should be $END$ }&#10;" description=":mtu of interface" toReformat="true" toShortenFQNames="true">
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="ipfilter_be" value="it { should be($object$) }&#10;" description="be of ipfilter" toReformat="true" toShortenFQNames="true">
+  <variable name="object" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="ipfilter_be_has_rule" value="it { should be_has_rule($rule$) }&#10;" description="be_has_rule of ipfilter" toReformat="true" toShortenFQNames="true">
+  <variable name="rule" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="ipfilter_to_s" value="its(:to_s) { should be $END$ }&#10;" description=":to_s of ipfilter" toReformat="true" toShortenFQNames="true">
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="ipnat_be" value="it { should be($object$) }&#10;" description="be of ipnat" toReformat="true" toShortenFQNames="true">
+  <variable name="object" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="ipnat_be_has_rule" value="it { should be_has_rule($rule$) }&#10;" description="be_has_rule of ipnat" toReformat="true" toShortenFQNames="true">
+  <variable name="rule" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="ipnat_to_s" value="its(:to_s) { should be $END$ }&#10;" description=":to_s of ipnat" toReformat="true" toShortenFQNames="true">
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="iptables_be" value="it { should be($object$) }&#10;" description="be of iptables" toReformat="true" toShortenFQNames="true">
+  <variable name="object" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="iptables_be_has_rule" value="it { should be_has_rule($rule$, $table$, $chain$) }&#10;" description="be_has_rule of iptables" toReformat="true" toShortenFQNames="true">
+  <variable name="rule" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="table" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="chain" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="iptables_to_s" value="its(:to_s) { should be $END$ }&#10;" description=":to_s of iptables" toReformat="true" toShortenFQNames="true">
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="ip6tables_be" value="it { should be($object$) }&#10;" description="be of ip6tables" toReformat="true" toShortenFQNames="true">
+  <variable name="object" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="ip6tables_be_has_rule" value="it { should be_has_rule($rule$, $table$, $chain$) }&#10;" description="be_has_rule of ip6tables" toReformat="true" toShortenFQNames="true">
+  <variable name="rule" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="table" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="chain" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="ip6tables_to_s" value="its(:to_s) { should be $END$ }&#10;" description=":to_s of ip6tables" toReformat="true" toShortenFQNames="true">
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="json_file_be" value="it { should be($object$) }&#10;" description="be of json_file" toReformat="true" toShortenFQNames="true">
+  <variable name="object" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="json_file_content" value="its(:content) { should be $END$ }&#10;" description=":content of json_file" toReformat="true" toShortenFQNames="true">
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="kernel_module_be" value="it { should be($object$) }&#10;" description="be of kernel_module" toReformat="true" toShortenFQNames="true">
+  <variable name="object" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="kernel_module_be_loaded" value="it { should be_loaded }&#10;" description="be_loaded of kernel_module" toReformat="true" toShortenFQNames="true">
+
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="linux_kernel_parameter_be" value="it { should be($object$) }&#10;" description="be of linux_kernel_parameter" toReformat="true" toShortenFQNames="true">
+  <variable name="object" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="linux_kernel_parameter_value" value="its(:value) { should be $END$ }&#10;" description=":value of linux_kernel_parameter" toReformat="true" toShortenFQNames="true">
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="lxc_be" value="it { should be($object$) }&#10;" description="be of lxc" toReformat="true" toShortenFQNames="true">
+  <variable name="object" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="lxc_exist" value="it { should exist }&#10;" description="exist of lxc" toReformat="true" toShortenFQNames="true">
+
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="lxc_be_running" value="it { should be_running.description($description$).under($under$) }&#10;" description="be_running of lxc" toReformat="true" toShortenFQNames="true">
+  <variable name="description" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="under" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="lxc_to_s" value="its(:to_s) { should be $END$ }&#10;" description=":to_s of lxc" toReformat="true" toShortenFQNames="true">
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="mail_alias_be" value="it { should be($object$) }&#10;" description="be of mail_alias" toReformat="true" toShortenFQNames="true">
+  <variable name="object" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="mail_alias_be_aliased_to" value="it { should be_aliased_to($target$) }&#10;" description="be_aliased_to of mail_alias" toReformat="true" toShortenFQNames="true">
+  <variable name="target" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="mysql_config_be" value="it { should be($object$) }&#10;" description="be of mysql_config" toReformat="true" toShortenFQNames="true">
+  <variable name="object" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="mysql_config_value" value="its(:value) { should be $END$ }&#10;" description=":value of mysql_config" toReformat="true" toShortenFQNames="true">
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="package_be" value="it { should be($object$) }&#10;" description="be of package" toReformat="true" toShortenFQNames="true">
+  <variable name="object" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="package_be_installed" value="it { should be_installed.by($by$).description($description$).with_version($with_version$) }&#10;" description="be_installed of package" toReformat="true" toShortenFQNames="true">
+  <variable name="by" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="description" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="with_version" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="package_version" value="its(:version) { should be $END$ }&#10;" description=":version of package" toReformat="true" toShortenFQNames="true">
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="php_config_be" value="it { should be($object$) }&#10;" description="be of php_config" toReformat="true" toShortenFQNames="true">
+  <variable name="object" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="php_config_value" value="its(:value) { should be $END$ }&#10;" description=":value of php_config" toReformat="true" toShortenFQNames="true">
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="port_be" value="it { should be($object$) }&#10;" description="be of port" toReformat="true" toShortenFQNames="true">
+  <variable name="object" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="port_be_listening" value="it { should be_listening.description($description$).on($on$).with($with$) }&#10;" description="be_listening of port" toReformat="true" toShortenFQNames="true">
+  <variable name="description" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="on" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="with" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="port_be_valid_ip_address" value="it { should be_valid_ip_address($ip_address$) }&#10;" description="be_valid_ip_address of port" toReformat="true" toShortenFQNames="true">
+  <variable name="ip_address" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="port_options" value="its(:options) { should be $END$ }&#10;" description=":options of port" toReformat="true" toShortenFQNames="true">
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="port_protocols" value="its(:protocols) { should be $END$ }&#10;" description=":protocols of port" toReformat="true" toShortenFQNames="true">
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="ppa_be" value="it { should be($object$) }&#10;" description="be of ppa" toReformat="true" toShortenFQNames="true">
+  <variable name="object" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="ppa_exist" value="it { should exist }&#10;" description="exist of ppa" toReformat="true" toShortenFQNames="true">
+
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="ppa_be_enabled" value="it { should be_enabled.description($description$).with_level($with_level$) }&#10;" description="be_enabled of ppa" toReformat="true" toShortenFQNames="true">
+  <variable name="description" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="with_level" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="process_be" value="it { should be($object$) }&#10;" description="be of process" toReformat="true" toShortenFQNames="true">
+  <variable name="object" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="process_be_running" value="it { should be_running.description($description$).under($under$) }&#10;" description="be_running of process" toReformat="true" toShortenFQNames="true">
+  <variable name="description" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="under" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="process_count" value="its(:count) { should be $END$ }&#10;" description=":count of process" toReformat="true" toShortenFQNames="true">
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="process_group" value="its(:group) { should be $END$ }&#10;" description=":group of process" toReformat="true" toShortenFQNames="true">
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="process_user" value="its(:user) { should be $END$ }&#10;" description=":user of process" toReformat="true" toShortenFQNames="true">
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="routing_table_be" value="it { should be($object$) }&#10;" description="be of routing_table" toReformat="true" toShortenFQNames="true">
+  <variable name="object" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="routing_table_be_has_entry" value="it { should be_has_entry($entry$) }&#10;" description="be_has_entry of routing_table" toReformat="true" toShortenFQNames="true">
+  <variable name="entry" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="routing_table_to_s" value="its(:to_s) { should be $END$ }&#10;" description=":to_s of routing_table" toReformat="true" toShortenFQNames="true">
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="selinux_be" value="it { should be($object$) }&#10;" description="be of selinux" toReformat="true" toShortenFQNames="true">
+  <variable name="object" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="selinux_be_enforcing" value="it { should be_enforcing.with_policy($with_policy$) }&#10;" description="be_enforcing of selinux" toReformat="true" toShortenFQNames="true">
+  <variable name="with_policy" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="selinux_be_permissive" value="it { should be_permissive.with_policy($with_policy$) }&#10;" description="be_permissive of selinux" toReformat="true" toShortenFQNames="true">
+  <variable name="with_policy" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="selinux_be_disabled" value="it { should be_disabled }&#10;" description="be_disabled of selinux" toReformat="true" toShortenFQNames="true">
+
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="selinux_to_s" value="its(:to_s) { should be $END$ }&#10;" description=":to_s of selinux" toReformat="true" toShortenFQNames="true">
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="selinux_module_be" value="it { should be($object$) }&#10;" description="be of selinux_module" toReformat="true" toShortenFQNames="true">
+  <variable name="object" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="selinux_module_be_enabled" value="it { should be_enabled.description($description$).with_level($with_level$) }&#10;" description="be_enabled of selinux_module" toReformat="true" toShortenFQNames="true">
+  <variable name="description" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="with_level" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="selinux_module_be_installed" value="it { should be_installed.by($by$).description($description$).with_version($with_version$) }&#10;" description="be_installed of selinux_module" toReformat="true" toShortenFQNames="true">
+  <variable name="by" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="description" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="with_version" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="selinux_module_to_s" value="its(:to_s) { should be $END$ }&#10;" description=":to_s of selinux_module" toReformat="true" toShortenFQNames="true">
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="service_be" value="it { should be($object$) }&#10;" description="be of service" toReformat="true" toShortenFQNames="true">
+  <variable name="object" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="service_be_enabled" value="it { should be_enabled.description($description$).with_level($with_level$) }&#10;" description="be_enabled of service" toReformat="true" toShortenFQNames="true">
+  <variable name="description" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="with_level" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="service_be_installed" value="it { should be_installed.by($by$).description($description$).with_version($with_version$) }&#10;" description="be_installed of service" toReformat="true" toShortenFQNames="true">
+  <variable name="by" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="description" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="with_version" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="service_be_running" value="it { should be_running.description($description$).under($under$) }&#10;" description="be_running of service" toReformat="true" toShortenFQNames="true">
+  <variable name="description" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="under" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="service_be_monitored_by" value="it { should be_monitored_by.description($description$).with_name($with_name$) }&#10;" description="be_monitored_by of service" toReformat="true" toShortenFQNames="true">
+  <variable name="description" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="with_name" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="service_be_has_start_mode" value="it { should be_has_start_mode($mode$) }&#10;" description="be_has_start_mode of service" toReformat="true" toShortenFQNames="true">
+  <variable name="mode" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="service_be_has_property" value="it { should be_has_property($property$) }&#10;" description="be_has_property of service" toReformat="true" toShortenFQNames="true">
+  <variable name="property" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="service_property" value="its(:property) { should be $END$ }&#10;" description=":property of service" toReformat="true" toShortenFQNames="true">
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="user_be" value="it { should be($object$) }&#10;" description="be of user" toReformat="true" toShortenFQNames="true">
+  <variable name="object" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="user_exist" value="it { should exist }&#10;" description="exist of user" toReformat="true" toShortenFQNames="true">
+
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="user_be_belongs_to_group" value="it { should be_belongs_to_group($group$) }&#10;" description="be_belongs_to_group of user" toReformat="true" toShortenFQNames="true">
+  <variable name="group" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="user_be_belongs_to_primary_group" value="it { should be_belongs_to_primary_group($group$) }&#10;" description="be_belongs_to_primary_group of user" toReformat="true" toShortenFQNames="true">
+  <variable name="group" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="user_be_has_uid" value="it { should be_has_uid($uid$) }&#10;" description="be_has_uid of user" toReformat="true" toShortenFQNames="true">
+  <variable name="uid" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="user_be_has_home_directory" value="it { should be_has_home_directory($path$) }&#10;" description="be_has_home_directory of user" toReformat="true" toShortenFQNames="true">
+  <variable name="path" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="user_be_has_login_shell" value="it { should be_has_login_shell($shell$) }&#10;" description="be_has_login_shell of user" toReformat="true" toShortenFQNames="true">
+  <variable name="shell" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="user_be_has_authorized_key" value="it { should be_has_authorized_key($key$) }&#10;" description="be_has_authorized_key of user" toReformat="true" toShortenFQNames="true">
+  <variable name="key" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="user_encrypted_password" value="its(:encrypted_password) { should be $END$ }&#10;" description=":encrypted_password of user" toReformat="true" toShortenFQNames="true">
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="user_minimum_days_between_password_change" value="its(:minimum_days_between_password_change) { should be $END$ }&#10;" description=":minimum_days_between_password_change of user" toReformat="true" toShortenFQNames="true">
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="user_maximum_days_between_password_change" value="its(:maximum_days_between_password_change) { should be $END$ }&#10;" description=":maximum_days_between_password_change of user" toReformat="true" toShortenFQNames="true">
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="yumrepo_be" value="it { should be($object$) }&#10;" description="be of yumrepo" toReformat="true" toShortenFQNames="true">
+  <variable name="object" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="yumrepo_exist" value="it { should exist }&#10;" description="exist of yumrepo" toReformat="true" toShortenFQNames="true">
+
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="yumrepo_be_enabled" value="it { should be_enabled.description($description$).with_level($with_level$) }&#10;" description="be_enabled of yumrepo" toReformat="true" toShortenFQNames="true">
+  <variable name="description" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="with_level" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="windows_feature_be" value="it { should be($object$) }&#10;" description="be of windows_feature" toReformat="true" toShortenFQNames="true">
+  <variable name="object" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="windows_feature_be_installed" value="it { should be_installed.by($by$).description($description$).with_version($with_version$) }&#10;" description="be_installed of windows_feature" toReformat="true" toShortenFQNames="true">
+  <variable name="by" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="description" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="with_version" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="windows_hot_fix_be" value="it { should be($object$) }&#10;" description="be of windows_hot_fix" toReformat="true" toShortenFQNames="true">
+  <variable name="object" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="windows_hot_fix_be_installed" value="it { should be_installed.by($by$).description($description$).with_version($with_version$) }&#10;" description="be_installed of windows_hot_fix" toReformat="true" toShortenFQNames="true">
+  <variable name="by" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="description" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="with_version" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="windows_registry_key_be" value="it { should be($object$) }&#10;" description="be of windows_registry_key" toReformat="true" toShortenFQNames="true">
+  <variable name="object" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="windows_registry_key_exist" value="it { should exist }&#10;" description="exist of windows_registry_key" toReformat="true" toShortenFQNames="true">
+
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="windows_registry_key_be_has_value" value="it { should be_has_value($value$) }&#10;" description="be_has_value of windows_registry_key" toReformat="true" toShortenFQNames="true">
+  <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="windows_registry_key_be_has_property" value="it { should be_has_property($property_name$, $property_type$) }&#10;" description="be_has_property of windows_registry_key" toReformat="true" toShortenFQNames="true">
+  <variable name="property_name" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="property_type" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="windows_registry_key_be_has_property_value" value="it { should be_has_property_value($property_name$, $property_type$, $value$) }&#10;" description="be_has_property_value of windows_registry_key" toReformat="true" toShortenFQNames="true">
+  <variable name="property_name" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="property_type" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="windows_scheduled_task_be" value="it { should be($object$) }&#10;" description="be of windows_scheduled_task" toReformat="true" toShortenFQNames="true">
+  <variable name="object" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="windows_scheduled_task_exist" value="it { should exist }&#10;" description="exist of windows_scheduled_task" toReformat="true" toShortenFQNames="true">
+
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="zfs_be" value="it { should be($object$) }&#10;" description="be of zfs" toReformat="true" toShortenFQNames="true">
+  <variable name="object" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="zfs_exist" value="it { should exist }&#10;" description="exist of zfs" toReformat="true" toShortenFQNames="true">
+
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="zfs_be_has_property" value="it { should be_has_property($property$) }&#10;" description="be_has_property of zfs" toReformat="true" toShortenFQNames="true">
+  <variable name="property" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="zfs_to_s" value="its(:to_s) { should be $END$ }&#10;" description=":to_s of zfs" toReformat="true" toShortenFQNames="true">
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="zfs_property" value="its(:property) { should be $END$ }&#10;" description=":property of zfs" toReformat="true" toShortenFQNames="true">
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="docker_base_be" value="it { should be($object$) }&#10;" description="be of docker_base" toReformat="true" toShortenFQNames="true">
+  <variable name="object" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="docker_base_be_exist" value="it { should be_exist }&#10;" description="be_exist of docker_base" toReformat="true" toShortenFQNames="true">
+
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="docker_base_inspection" value="its(:inspection) { should be $END$ }&#10;" description=":inspection of docker_base" toReformat="true" toShortenFQNames="true">
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="docker_image_be" value="it { should be($object$) }&#10;" description="be of docker_image" toReformat="true" toShortenFQNames="true">
+  <variable name="object" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="docker_container_be" value="it { should be($object$) }&#10;" description="be of docker_container" toReformat="true" toShortenFQNames="true">
+  <variable name="object" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="docker_container_be_running" value="it { should be_running.description($description$).under($under$) }&#10;" description="be_running of docker_container" toReformat="true" toShortenFQNames="true">
+  <variable name="description" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="under" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="docker_container_be_has_volume" value="it { should be_has_volume($container_path$, $host_path$) }&#10;" description="be_has_volume of docker_container" toReformat="true" toShortenFQNames="true">
+  <variable name="container_path" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="host_path" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="x509_certificate_be" value="it { should be($object$) }&#10;" description="be of x509_certificate" toReformat="true" toShortenFQNames="true">
+  <variable name="object" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="x509_certificate_be_valid" value="it { should be_valid }&#10;" description="be_valid of x509_certificate" toReformat="true" toShortenFQNames="true">
+
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="x509_certificate_be_certificate" value="it { should be_certificate }&#10;" description="be_certificate of x509_certificate" toReformat="true" toShortenFQNames="true">
+
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="x509_certificate_be_has_purpose" value="it { should be_has_purpose($p$) }&#10;" description="be_has_purpose of x509_certificate" toReformat="true" toShortenFQNames="true">
+  <variable name="p" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="x509_certificate_email" value="its(:email) { should be $END$ }&#10;" description=":email of x509_certificate" toReformat="true" toShortenFQNames="true">
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="x509_certificate_issuer" value="its(:issuer) { should be $END$ }&#10;" description=":issuer of x509_certificate" toReformat="true" toShortenFQNames="true">
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="x509_certificate_subject" value="its(:subject) { should be $END$ }&#10;" description=":subject of x509_certificate" toReformat="true" toShortenFQNames="true">
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="x509_certificate_fingerprint" value="its(:fingerprint) { should be $END$ }&#10;" description=":fingerprint of x509_certificate" toReformat="true" toShortenFQNames="true">
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="x509_certificate_alias" value="its(:alias) { should be $END$ }&#10;" description=":alias of x509_certificate" toReformat="true" toShortenFQNames="true">
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="x509_certificate_keylength" value="its(:keylength) { should be $END$ }&#10;" description=":keylength of x509_certificate" toReformat="true" toShortenFQNames="true">
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="x509_certificate_validity_in_days" value="its(:validity_in_days) { should be $END$ }&#10;" description=":validity_in_days of x509_certificate" toReformat="true" toShortenFQNames="true">
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="x509_certificate_subject_alt_names" value="its(:subject_alt_names) { should be $END$ }&#10;" description=":subject_alt_names of x509_certificate" toReformat="true" toShortenFQNames="true">
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="x509_private_key_be" value="it { should be($object$) }&#10;" description="be of x509_private_key" toReformat="true" toShortenFQNames="true">
+  <variable name="object" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="x509_private_key_be_valid" value="it { should be_valid }&#10;" description="be_valid of x509_private_key" toReformat="true" toShortenFQNames="true">
+
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="x509_private_key_be_encrypted" value="it { should be_encrypted }&#10;" description="be_encrypted of x509_private_key" toReformat="true" toShortenFQNames="true">
+
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="x509_private_key_be_has_matching_certificate" value="it { should be_has_matching_certificate($cert_file$) }&#10;" description="be_has_matching_certificate of x509_private_key" toReformat="true" toShortenFQNames="true">
+  <variable name="cert_file" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="linux_audit_system_be" value="it { should be($object$) }&#10;" description="be of linux_audit_system" toReformat="true" toShortenFQNames="true">
+  <variable name="object" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="linux_audit_system_be_enabled" value="it { should be_enabled.description($description$).with_level($with_level$) }&#10;" description="be_enabled of linux_audit_system" toReformat="true" toShortenFQNames="true">
+  <variable name="description" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="with_level" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="linux_audit_system_be_running" value="it { should be_running.description($description$).under($under$) }&#10;" description="be_running of linux_audit_system" toReformat="true" toShortenFQNames="true">
+  <variable name="description" expression="" defaultValue="" alwaysStopAt="true" />
+  <variable name="under" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="linux_audit_system_rules" value="its(:rules) { should be $END$ }&#10;" description=":rules of linux_audit_system" toReformat="true" toShortenFQNames="true">
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="hadoop_config_be" value="it { should be($object$) }&#10;" description="be of hadoop_config" toReformat="true" toShortenFQNames="true">
+  <variable name="object" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="hadoop_config_value" value="its(:value) { should be $END$ }&#10;" description=":value of hadoop_config" toReformat="true" toShortenFQNames="true">
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="php_extension_be" value="it { should be($object$) }&#10;" description="be of php_extension" toReformat="true" toShortenFQNames="true">
+  <variable name="object" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+<template name="php_extension_be_loaded" value="it { should be_loaded }&#10;" description="be_loaded of php_extension" toReformat="true" toShortenFQNames="true">
+
+  <context>
+    <option name="RUBY" value="true" />
+  </context>
+</template>
+</templateSet>
