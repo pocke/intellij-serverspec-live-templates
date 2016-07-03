@@ -22,6 +22,11 @@ and restart IntelliJ.
 >
 > [Live Templates](https://www.jetbrains.com/help/idea/2016.1/live-templates.html)
 
+Usage
+-------
+
+![out](https://cloud.githubusercontent.com/assets/4361134/16545852/340c183e-4172-11e6-8561-abd35cc44f6d.gif)
+
 
 License
 -------
